@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaylee Montgomery - Kaylee Creative Co.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f3a3b0;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header {
+            background-color: #f3a3b0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h1, h2 {
+            color: #e91e63;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .about, .services, .portfolio, .contact {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .services ul, .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li, .contact li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kaylee Montgomery</h1>
+        <h2>Kaylee Creative Co.</h2>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Kaylee Montgomery, the founder of Kaylee Creative Co. I specialize in creating digital media products like logos, social media posts, gift cards, and infographics. With a passion for design and a keen eye for detail, I aim to bring your vision to life through my creative services.</p>
+        </section>
+        <section id="services" class="section services">
+            <h2>Services</h2>
+            <ul>
+                <li><strong>Social Media Branding:</strong> Instagram posts, Instagram stories, Facebook posts, website banners, emails & newsletters, visiting cards, envelopes, and letterheads.</li>
+                <li><strong>Custom Logo Packages:</strong> Starting at $75, includes 1-2 initial concepts and 2-3 revisions.</li>
+                <li><strong>Social Media Packages:</strong>
+                    <ul>
+                        <li><strong>Basic Package:</strong> 5 Instagram posts, 3 Instagram stories, 2 Facebook posts - $300</li>
+                        <li><strong>Standard Package:</strong> 10 Instagram posts, 5 Instagram stories, 5 Facebook posts, 1 Website Banner - $800</li>
+                        <li><strong>Premium Package:</strong> 15 Instagram posts, 10 Instagram stories, 10 Facebook posts, 2 Website Banners, 1 Email & Newsletter design, 1 Visiting Card design - $1500</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="portfolio" class="section portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out some of my recent projects:</p>
+            <p>Instagram: <a href="https://www.instagram.com/kayleecreativeco">@kayleecreativeco</a></p>
+            <!-- Add images or examples of your work here -->
+        </section>
+        <section id="contact" class="section contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: <a href="mailto:info@kayleecreativeco.shop">info@kayleecreativeco.shop</a></li>
+                <li>Website: <a href="https://www.kayleecreativeco.shop">www.kayleecreativeco.shop</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/kayleecreativeco">@kayleecreativeco</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kaylee Creative Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
